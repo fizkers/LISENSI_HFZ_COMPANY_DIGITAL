@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat Lisensi Resmi - HFZ COMPANY DIGITAL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@300;400;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 60px 20px;
+            background: #1a1a1a;
+            display: flex;
+            justify-content: center;
+        }
+
+        .license-paper {
+            max-width: 850px;
+            width: 100%;
+            background: #ffffff;
+            padding: 80px;
+            position: relative;
+            border: 1px solid #c5a059;
+            box-shadow: 0 0 50px rgba(0,0,0,0.7);
+            color: #222;
+        }
+
+        /* Watermark */
+        .watermark {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%) rotate(-45deg);
+            font-size: 7rem;
+            color: rgba(0, 0, 0, 0.02);
+            font-weight: 900;
+            z-index: 0;
+            pointer-events: none;
+            white-space: nowrap;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 4px double #c5a059;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+        }
+
+        .header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Isi Surat Lengkap */
+        .content-body {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            text-align: justify;
+            position: relative;
+            z-index: 1;
+        }
+
+        .section-header {
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #c5a059;
+            margin-top: 25px;
+            display: block;
+            border-bottom: 1px solid #eee;
+            font-size: 0.9rem;
+        }
+
+        /* AREA TANDA TANGAN & STEMPEL */
+        .sig-container {
+            position: relative;
+            width: 400px;
+            margin-top: 80px;
+            height: 180px;
+        }
+
+        /* Stempel Ungu Detail */
+        .stamp-official {
+            width: 150px;
+            height: 150px;
+            border: 3px double rgba(128, 0, 128, 0.35);
+            border-radius: 50%;
+            position: absolute;
+            bottom: 40px; 
+            left: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(-15deg);
+            z-index: 1;
+            background: rgba(128, 0, 128, 0.02);
+        }
+
+        .stamp-text {
+            font-size: 0.6rem;
+            font-weight: 900;
+            color: rgba(128, 0, 128, 0.35);
+            text-align: center;
+            text-transform: uppercase;
+            line-height: 1.1;
+        }
+
+        /* Tanda Tangan HAFIZ Lengkap */
+        .sig-name-art {
+            font-family: 'Mrs Saint Delafield', cursive;
+            font-size: 6rem;
+            color: rgba(26, 26, 26, 0.9);
+            position: absolute;
+            bottom: 25px;
+            left: 40px;
+            z-index: 2;
+            white-space: nowrap;
+            user-select: none;
+            transform: rotate(-3deg);
+        }
+
+        /* Garis Tanda Tangan */
+        .sig-line {
+            width: 320px;
+            border-top: 2px solid #222;
+            padding-top: 10px;
+            position: absolute;
+            bottom: 0;
+            z-index: 3;
+        }
+
+        .footer-legal {
+            margin-top: 60px;
+            font-size: 0.75rem;
+            color: #777;
+            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        .footer-legal a { color: #c5a059; text-decoration: none; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+    <div class="license-paper">
+        <div class="watermark">HFZ COMPANY</div>
+
+        <div class="header">
+            <div style="font-size: 0.75rem; letter-spacing: 4px; color: #c5a059;">OFFICIAL DIGITAL DOCUMENT</div>
+            <h1>SURAT PERNYATAAN LISENSI</h1>
+        </div>
+
+        <div class="content-body">
+            <p>Dokumen lisensi ini secara sah menyatakan bahwa seluruh aset, desain, skrip kode, dan elemen visual yang diproduksi oleh <b>HFZ COMPANY DIGITAL</b> adalah properti intelektual yang dilindungi penuh oleh hukum hak cipta. Pernyataan ini bersifat final dan mengikat bagi seluruh pengguna layanan.</p>
+
+            <span class="section-header">Pasal 1: Kepemilikan & Hak Intelektual</span>
+            <p>Seluruh materi digital yang disediakan, termasuk namun tidak terbatas pada desain undangan, struktur database, logika pemrograman, dan elemen grafis tetap merupakan milik sah <b>HFZ COMPANY DIGITAL</b>. Klien hanya diberikan hak guna pakai terbatas sesuai dengan periode dan paket layanan yang telah disepakati sebelumnya.</p>
+
+            <span class="section-header">Pasal 2: Batasan Penggunaan & Distribusi</span>
+            <p>Penerima layanan dilarang keras untuk: (a) Mendistribusikan ulang aset kepada pihak ketiga tanpa izin tertulis; (b) Melakukan rekayasa balik (reverse engineering) pada kode sumber; (c) Menjual kembali aset (reselling) dengan nama pribadi atau entitas lain di luar ekosistem resmi HFZ Digital; (d) Menggunakan aset untuk tujuan yang melanggar hukum.</p>
+
+            <span class="section-header">Pasal 3: Ketentuan Branding & Footer</span>
+            <p>Penghapusan atribut merek, logo, atau tautan hak cipta "HFZ COMPANY DIGITAL" pada produk akhir dilarang secara hukum, kecuali klien telah melakukan pembelian lisensi khusus <i>White Label</i> atau memiliki perjanjian tertulis di luar dokumen ini.</p>
+
+            <span class="section-header">Pasal 4: Tindakan Hukum & Sanksi Pelanggaran</span>
+            <p>Setiap bentuk pelanggaran terhadap poin-poin yang tercantum dalam dokumen ini akan berakibat pada penonaktifan layanan secara sepihak tanpa pengembalian dana, serta akan diproses melalui jalur hukum sesuai dengan <b>Undang-Undang ITE</b> dan <b>Undang-Undang Hak Cipta</b> yang berlaku di wilayah hukum Republik Indonesia.</p>
+
+            <p style="font-style: italic; margin-top: 30px;">Dikeluarkan secara resmi oleh otoritas digital HFZ COMPANY di Aceh, Maret 2026.</p>
+        </div>
+
+        <div class="sig-container">
+            <div class="stamp-official">
+                <div class="stamp-text">
+                    HFZ COMPANY DIGITAL<br>
+                    <span style="font-size: 1.2rem; display: block; margin: 5px 0;">★ ★ ★</span>
+                    ORIGINAL SEAL
+                </div>
+            </div>
+
+            <div class="sig-name-art">Hafiz</div>
+
+            <div class="sig-line">
+                <p style="font-weight: 600; font-size: 1.1rem; margin: 0; text-transform: uppercase;">HFZ COMPANY DIGITAL</p>
+                <p style="font-size: 0.8rem; color: #555; margin: 0;">Authorized Digital Service Provider</p>
+            </div>
+        </div>
+
+        <div class="footer-legal">
+            Verifikasi Keaslian & Portfolio: <br>
+            <a href="https://lynk.id/hfzcompany">lynk.id/hfzcompany</a> | 
+            <a href="https://fizkers.github.io/Price_List_Website_HFZ-COMPANY-Digital/">Official Price List</a>
+            <br><br>
+            <b>© 2026 HFZ COMPANY DIGITAL - ALL COPYRIGHTS RESERVED</b>
+        </div>
+    </div>
+
+</body>
+</html>
